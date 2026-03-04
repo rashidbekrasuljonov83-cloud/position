@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("https://img2.akspic.ru/attachments/crops/8/7/9/9/29978/29978-tehnicheskaya_podderzhka-dizajn_interera-rabochij_stol-mebel-tablica-1920x1080.jpg");
+  background-image: url("../imgs/129697-lichnyj_roskoshnyj_avtomobil-avtomobil-bmw_5_series_e60-bmw-obod-2560x1440.jpg");
   background-size: cover;
   background-position: center;
   font-family: sans-serif;
+  background-repeat: no-repeat;
 }
 .menu-bar {
   background: rgb(0, 100, 0);
@@ -25,7 +26,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #fff;
 }
 .active,
 .menu-bar ul li:hover {
@@ -69,7 +70,7 @@ a {
 .sub-menu-2 {
   display: none;
 }
-.hover-me .sub-menu-2 {
+.hover-me:hover .sub-menu-2 {
   position: absolute;
   display: block;
   margin-top: -40px;

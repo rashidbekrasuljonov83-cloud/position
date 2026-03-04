@@ -3,20 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Drop-down Menu design - Easy Tutorials</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <ul>
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Services</li>
-      <li>Clients</li>
-      <li>Investors</li>
-      <li>Pricing</li>
-      <li>Training</li>
-      <li>Contact</li>
-    </ul>
+    <div class="menu-bar">
+      <ul>
+        <li class="active">
+          <a href="#"><i class="fa-regular fa-house"></i>Home</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-regular fa-user"></i>About Us</a>
+
+          <div class="sub-menu-1">
+            <ul>
+              <li><a href="#">Mission</a></li>
+              <li><a href="#">Vision</a></li>
+              <li><a href="#">team</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#"><i class="fa-regular fa-clone"></i>Services</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-regular fa-users"></i>Clients</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-angellist"></i>Investors</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-indian-rupee-sign"></i>Pricing</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-regular fa-edit"></i>Training</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-phone"></i>Contact</a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>

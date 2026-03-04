@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://img2.akspic.ru/attachments/crops/8/7/9/9/29978/29978-tehnicheskaya_podderzhka-dizajn_interera-rabochij_stol-mebel-tablica-1920x1080.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+.menu-bar {
+  background: rgb(0, 100, 0);
+  text-align: center;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+.menu-bar ul li {
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.active,
+.menu-bar ul li:hover {
+  background: #2bab0d;
+  border-radius: 3px;
+}
+.menu-bar .fa {
+  margin-right: 8px;
+}
+.sub-menu-1 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 15px;
+  margin-right: 15px;
+}
